@@ -1,0 +1,29 @@
+.ABOUTHEAD {
+    font-family: Oswald, monospace;
+    background-color: rgb(208, 221, 211);
+    border: 5px solid rgb(231, 16, 106);
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: x-large;
+    color: rgb(131, 35, 35);
+}
+
+.ABOUTLINE {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(240, 77, 126);
+    border: 5px solid rgb(56, 86, 170);
+    border-radius: 2vh;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: x-large;
+    color: rgba(7, 7, 7, 0.452);
+
+}
+
+body {
+    background-color: rgba(43, 180, 49, 0.815);
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(155, 66, 125, 0.815);
+}
+
+.PYLINE {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(216, 214, 112);
+    border: 5px solid rgb(56, 86, 170);
+    border-radius: 2vh;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: x-large;
+    color: rgba(7, 7, 7, 0.452);
+
+}
+
+.PYHEAD {
+    font-family: Oswald, monospace;
+    background-color: rgb(208, 221, 211);
+    border: 5px solid rgb(231, 16, 106);
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: x-large;
+    color: rgb(131, 35, 35);
+}
+
+.PYUSAGES {
+    font-family: FiraSans-Bold, 'Times New Roman', Times, serif;
+    background-color: rgb(185, 80, 80);
+    border: 5px solid rgb(151, 202, 10);
+    border-radius: 2vh;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: x-large;
+    color: rgba(255, 255, 255, 0.753);
+
+}

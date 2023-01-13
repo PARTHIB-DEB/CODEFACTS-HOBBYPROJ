@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %} Contact {% endblock title %}
+
+{% block body %}
+
+
+<div class="container">
+    <form method="POST" action="/contact">
+    <div class="text-center" style="font-family: RobotoSlab, 'Times New Roman', Times, serif"><h1><b>Contact Us</b></h1></div>
+    {% csrf_token %}
+      <div class="form-group" style="font-family: RobotoSlab, 'Times New Roman', Times, serif">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+      </div>
+    
+      <div class="form-group" style="font-family: RobotoSlab, 'Times New Roman', Times, serif">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your Email">
+      </div>
+    
+      <div class="form-group" style="font-family: RobotoSlab, 'Times New Roman', Times, serif">
+        <label for="description">Description</label>
+        <textarea class="form-control" id="description" name="description" rows="3" style="margin-top: 0px; margin-bottom: 0px; height: 126px;"></textarea>
+        <br><input class="btn btn-primary" type="submit" value="Submit">
+        </div>
+      </div>
+    </form>
+
+
+{% endblock body %}
